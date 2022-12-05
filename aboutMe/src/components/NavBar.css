@@ -1,0 +1,25 @@
+.nav{
+    margin-right: 25px;
+    font-size:20px;
+    font-weight: 500;
+    color: antiquewhite;
+    text-decoration:none
+}
+
+.nav:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    color: rgb(10,8,123)
+}
+
+div.navbar{
+   width:100%;
+   position:fixed;
+   display:flex;
+   justify-content: flex-end;
+   align-items:center;
+   top:0;
+   right:0;
+   height:50px;
+   background-color: #cfac30;
+}
