@@ -68,7 +68,9 @@ With me on your team you are getting an innovative go getter with a growth minds
           <i class="fa-brands fa-react fa-4x"></i>
           <h1>React</h1>
           </div>
-           
+          <div class="skill-images">
+          <i class="fa-brands fa-python fa-4x"></i>
+          <h1>Python</h1></div> 
           
            <div class="postgres">
            <img src={postgres} alt="postgresql"/>
