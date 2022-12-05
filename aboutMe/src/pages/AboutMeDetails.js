@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import './AboutMeDetails.css'
+import Portfolio from '../pages/Portfolio'
 import picture from '../assets/Shondriane.jpeg'
 import postgres from '../assets/Postgresql-02.jpg'
 
@@ -71,7 +72,7 @@ With me on your team you are getting an innovative go getter with a growth minds
           
            <div class="postgres">
            <img src={postgres} alt="postgresql"/>
-        <h1> Postgresql</h1>
+        <h1> PostgreSQL</h1>
             </div>
             
             </div>

@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import AboutMe from '../components/AboutMe'
 import AboutMeDetails from '../pages/AboutMeDetails'
 import './Home.css'
+import Portfolio from '../pages/Portfolio'
 
 import {Link} from 'react-router-dom'
 

@@ -9,7 +9,7 @@ function NavBar(props) {
         Home
       </Link>
       <Link className="nav" to="/Portfolio">
-        Portolio
+        Portfolio
       </Link>
       <Link className="nav" to="/AboutMeDetails">
         About Me
