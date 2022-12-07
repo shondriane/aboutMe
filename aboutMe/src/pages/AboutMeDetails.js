@@ -9,15 +9,7 @@ import Footer from '../components/Footer'
 
 
 function AboutMeDetails(){
-    const skillsList=[
-       "JavaScript",
-       "React",
-       "PostgreSQL",
-        "Node.js",
-        "Mongo",
-        "Insomnia",        
-    ]
-    console.log(skillsList)
+  
     return(
         
   
@@ -33,8 +25,8 @@ function AboutMeDetails(){
         <div className = "aboutContent">
             <h2 className="title">About Me:</h2>
 <p className="text">
-   A Corporate Social Responsibility Global Manager turned full-stack developer. I love analyzing data and finding solutions to make things better.
-   <a  href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'> Download My Resume </a>
+   A Corporate Social Responsibility Global Manager turned full-stack developer. I love analyzing data and finding solutions to make things better.<a  href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'> Download My Resume </a>
+  
 </p>
 <p className="text">
 
@@ -45,25 +37,12 @@ function AboutMeDetails(){
 
 <div >
     <hr/>
-    <div>
-    <h4 className="tech-used">
-               Recent technologies used:
-            </h4>
-    </div>
-           
+  
         
 
-        <div >
-                
-        <ul className="skill-list">
-              {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-         </ul>
-         <hr/>
-         </div>
+    
 <p className="text">
-With me on your team you are getting an innovative go getter with a growth mindset, who enjoys helping and uplifting others. As a recent graduate from an intesive bootcamp I have the skills I need to help you see your vision to fruition, and learn complex languages, frameworks, and libraries quickly.
+With me on your team you are getting an innovative go getter with a growth mindset, who enjoys  helping and uplifting others. As a recent graduate from an intesive bootcamp I have the skills I need to help you see your vision to fruition, and learn complex languages, frameworks, and libraries quickly.
 
   
 </p>

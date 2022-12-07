@@ -14,7 +14,7 @@ height:120vh;
 .profilePicture{
     height:200px;
     width:200px;
-    margin-top: -60px;
+    margin-top: -700px;
    align-items: center;
    justify-content: center;
    box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
@@ -43,6 +43,7 @@ h2{
 
 .text{
     margin-bottom: 15px;
+    margin-bottom: 20px;
     color:  rgb(10, 8, 123);
 
 }
@@ -59,37 +60,13 @@ a:hover {
  }
  
 
- .skills{
-    background-color:rgb(10, 8, 123);
-    min-height:110%;
-    width:100vw;
-    display:grid;
-    justify-content:center;
-    flex-flow:row wrap;
-    justify-content:space-around;
-    align-items:center;
-    grid-template-columns: repeat(2,1fr);
- }
 
- .skills h2{
-    margin-top: -75px;
-    padding: 20px;   
- }
 
  h1{
     padding: 10px
  }
 
- .tech-used{
-    text-align: center;
-    color:  #217c68;
-    text-shadow: .5px 1px antiquewhite;
- }
 
- .titleSkills{
-   grid-column:1/-1;
-   text-align: center;
- }
 
 hr{
     display: flex;
@@ -103,18 +80,7 @@ hr{
    
 }
 
-.skill-list { 
 
-    text-align: center;
-    list-style-type: disc;
-    flex-direction: row wrap;
-            columns: 2;
-            font-size: 1.25rem;
-            margin: 1rem 3rem;
-            gap: 5rem;
-            color:  rgb(10, 8, 123);
-            text-shadow: .5px 1px #7c6821;;
-}
 
 
 @media only screen and (min-width: 768px){
@@ -125,7 +91,7 @@ hr{
     .profilePicture{
         height:337.5px;
         width:337.5px;
-        margin-top: -155px;
+        margin-top: -255px;
         box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
         border-radius: 50%;
         }
@@ -133,129 +99,8 @@ hr{
         .aboutContent{
         width:375px;
         padding:9.375px;
-        margin-top: -120px;
+        
         border-radius:6px;
         
         }
-        /* .skills h2{
-            margin-top: -125px;
-            padding: 20px;   
-         } */
     }
-
-/* 
- .wrapper{
-    display:flex;
- align-items:center;
- justify-content:center;
- gap: 1.5 px;
-height:100vh;
- margin:auto;
-  background-color: antiquewhite;
- 
-
-}
-.profilePicture{
-height:200.75px;
-width:200.75px;
-box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
-border-radius: 50%;
-}
-
-.aboutContent{
-width:375px;
-padding:9.375px;
-border-radius:6px;
-
-}
-
-
-.aboutContent h2{
-    margin-bottom: 25.5px;
-}
-
-h2{
-    font-size:70px;
-    color: #7c6821;
-    text-shadow: 1.5px 1px rgb(10, 8, 123);
-}
-
-.aboutContent .text{
-    line-height:18.5px;
-    padding: 4.5px 0;
-  
-}
-p.text{
-    margin-bottom:10px;
-    color:  rgb(10, 8, 123)
-}
-
-
-.title{
-   text-align: center;
-   font-size: 35px;
-    margin:0 auto;
-    margin-bottom: 20px
-   
-} 
-a:hover{
-   color: #7c6821;
-   text-decoration: underline;
-   font-size: large;
-  
-}
-
-
-@media only screen and (min-width: 768px){
-    .wrapper{
-        display:flex;
-     align-items:center;
-     justify-content:center;
-     gap: 17.5 px;
-    height:100vh;
-     margin:auto;
-      background-color: antiquewhite;
-     
-    
-    }
-    .profilePicture{
-    height:337.5px;
-    width:337.5px;
-    box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
-    border-radius: 50%;
-    }
-    
-    .aboutContent{
-    width:375px;
-    padding:9.375px;
-    border-radius:6px;
-    
-    }
-    
-    .aboutContent h2{
-        margin-bottom: 25.5px;
-    }
-    
-    h2{
-        font-size:70px;
-        color: #7c6821;
-        text-shadow: 1.5px 1px rgb(10, 8, 123);
-    }
-    
-    .aboutContent .text{
-        line-height:25.5px;
-        padding: 4.5px 0;
-      
-    }
-    p.text{
-        color:  rgb(10, 8, 123)
-    }
-    
-    .title{
-       text-align: center;
-       font-size: 35px;
-        margin:0 auto;
-        margin-bottom: 20px
-       
-    } 
-}  */

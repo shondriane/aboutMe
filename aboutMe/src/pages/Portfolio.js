@@ -10,12 +10,18 @@ import Footer from '../components/Footer'
 
 
 function Portfolio(){
+   
     return(
         <div className="portfolioWrapper">
             <NavBar/>
        <div className="titleProjects">
             <h1 className="titleProjects">Recent Projects</h1>
-            </div>
+           
+    </div>
+           
+        
+
+       
             <div className="card">
            <div className='cardContainer'>
 <div className="c"></div>
