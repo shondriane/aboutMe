@@ -4,9 +4,9 @@
     font-size: 20px;
     color: #7c6821;
 }
-h4{
+.i-am{
     padding-right: 20px;
-    color:  rgb(10, 8, 123);;
+    color:  #68217C;
 }
 .animation{
     overflow:hidden;
@@ -14,7 +14,7 @@ h4{
     
 }
 
-li{
+.facts{
     height:45px;
     margin-bottom: 45px;
     display: block;

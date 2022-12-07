@@ -1,3 +1,73 @@
-.wrapper{
+.portfolioWrapper{
+    display:flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    justify-content: center;
+   padding-top: 30px;
+   height:100vh;
+    background-color: antiquewhite;
+    height: 140vh;
+    
+}
+h4{
+    color:#217C68
+}
+.titleProjects{
+   display:grid;
+    grid-column: 1;
+    text-align: center;
+    display:block;
+    color: #7c6821;
+}
+.card{
+    grid-auto-columns:1fr 200px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-top: 13px;
+    grid-template-columns: repeat(3,1fr);
+   color:antiquewhite;
+    background-color: rgb(10, 8, 123); 
+  
+    width:300px;
+    height:300px;
+    margin:20px 10px;
+  border: 2px solid antiquewhite;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+
+}
+
+.cardContainer{
+height:20px;
+background-color: #68217C;
+
+align-items: center;
+display: flex;
+}
+
+.c{
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    margin:3px;
     background-color: antiquewhite;
 }
+
+.image{
+    height:50%;
+   margin-left: 5%;
+   margin-bottom: 5%
+}
+
+.travel-image{
+    height:45%;
+    margin-left: 4%;
+    margin-bottom: 8%
+    
+}
+
+img.icons {
+    width: 30px;
+    height: 30px;
+    background-image:rgb(10, 8, 123)
+  }

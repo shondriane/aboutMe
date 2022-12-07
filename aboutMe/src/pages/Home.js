@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import AboutMe from '../components/AboutMe'
+import Footer from '../components/Footer'
 import AboutMeDetails from '../pages/AboutMeDetails'
 import './Home.css'
 import Portfolio from '../pages/Portfolio'
@@ -28,7 +29,7 @@ const Home = () => {
           </Link>
           </button>
         </div>
-     
+     <Footer/>
       </main>
     </div>
      

@@ -7,13 +7,27 @@ import AboutMeDetails from './pages/AboutMeDetails'
 import Portfolio from './pages/Portfolio'
 
 
+
+
 function App() {
+
+  const siteProps = {
+    name: "Shondriane Mesa-Wise",
+    title: "Software Engineer",
+    email: "shondriane.mesa-wise@gmail.com",
+    gitHub: "shondriane",
+    linkedIn: "shondriane-mesa-wise",
+  
+  }
+  const primaryColor= "#7c6821";
+
   return (
     <div>
+      
       <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path ="/aboutMeDetails" element={<AboutMeDetails/>}/>
-      <Route path="/portfolio" element={<Portfolio/>}/>
+      <Route path="/" element={<Home {...siteProps} primaryColor={primaryColor}/>} />
+      <Route path ="/aboutMeDetails" element={<AboutMeDetails {...siteProps} primaryColor={primaryColor}/>}/>
+      <Route path="/portfolio" element={<Portfolio {...siteProps} primaryColor={primaryColor}/>}/>
       
       </Routes>
     </div>

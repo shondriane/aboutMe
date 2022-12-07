@@ -5,16 +5,16 @@ function AboutMe(){
     return(
         <div>
             <div className="aboutMe">
-             <h4> I am: </h4>
+             <h4 className="i-am"> I am: </h4>
                
             <div className="animation">
                
                 <ul className="aboutMeList">
-                <li> a Runner</li>
-                <li> a Life Long Learner</li>
-                <li> a Software Developer</li>
-                <li> a World Traveller</li>
-                <li> Socially Responsible </li>
+                <li className="facts"> a Runner</li>
+                <li className="facts"> a Life Long Learner</li>
+                <li className="facts"> a Software Developer</li>
+                <li className="facts"> a Travel Enthusiast</li>
+                <li className="facts"> Socially Responsible </li>
               
                 </ul>
                

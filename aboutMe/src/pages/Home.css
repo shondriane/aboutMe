@@ -7,20 +7,21 @@
   flex-direction: column;
   background-color: antiquewhite;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 .homePageTitle {
   display: flex;
-  margin: 0 auto;
+   margin: 0 auto;
   align-items: flex-end;
-  margin-bottom: 60px;
+  margin-bottom: 60px; 
 }
 #homePageName {
   display: flex;
   align-items: flex-end;
-  width: 310px;
+  width: 220px;
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 30px;
   color: #7c6821;
   text-shadow: 1px 1px rgb(10, 8, 123);
@@ -30,7 +31,7 @@
   display: flex;
   align-items: flex-end;
   align-content: flex-end;
-  width: 100px;
+  width: 125px;
   margin-bottom: 0px;
   font-size: 20px;
   color: rgb(10, 8, 123);
@@ -72,6 +73,17 @@ button:hover {
     2px 4px 8px 0px rgba(10, 8, 123), 2px 4px 16px 0px rgba(10, 8, 123);
   transform: translateY(5px);
 
+}
+#contact{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%
+  
+}
+img.socialIcon {
+  width: 30px;
+  height: 30px;
 }
 
 @media only screen and (min-width: 768px) {

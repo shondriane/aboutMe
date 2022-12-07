@@ -4,16 +4,17 @@
  flex-flow:row wrap;
  align-items:center;
  justify-content: center;
-gap:30px;
-height:100vh;
+gap:20px;
+height:120vh;
   background-color: antiquewhite;
+  
 }
 
 
 .profilePicture{
     height:200px;
     width:200px;
-   margin:auto;
+    margin-top: -60px;
    align-items: center;
    justify-content: center;
    box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
@@ -26,8 +27,10 @@ border-radius: 50%;
     padding:5px;
     width:250px;
     margin-top:60px;
-    height:200px;
+    height:400px;
     margin-bottom: 350px;
+    background-color: antiquewhite;
+    background-repeat: repeat ;
   
 }
 
@@ -40,15 +43,21 @@ h2{
 
 .text{
     margin-bottom: 15px;
-    color:  rgb(10, 8, 123)
-}
+    color:  rgb(10, 8, 123);
 
-a:hover {
-    color: #7c6821;
+}
+a{
+    color: #217c68;
+    font-weight: 250;
     text-decoration: underline;
+}
+a:hover {
+    color: #68217C;
+    
     font-size: 20px;
 
  }
+ 
 
  .skills{
     background-color:rgb(10, 8, 123);
@@ -71,47 +80,52 @@ a:hover {
     padding: 10px
  }
 
+ .tech-used{
+    text-align: center;
+    color:  #217c68;
+    text-shadow: .5px 1px antiquewhite;
+ }
+
  .titleSkills{
    grid-column:1/-1;
    text-align: center;
  }
 
- .skill-images {
-    margin-top: -250px;
- display: flex;
-align-items: center;
-justify-content:center;
-    color:antiquewhite;
-    width:100%
-    
- }
-
-.postgres{
-   height:3em;
-   width:3em;
-   display:flex; 
-   flex-direction: wrap;
-  margin-top: -260px;
- padding-left:30px;  
+hr{
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+    height: 2px;
+    width: 50%;
+    margin-top: 20px;
+    border: solid 1px  #7c6821;
+    margin-bottom: 20px;
+   
 }
 
+.skill-list { 
 
-
-.postgres h1{
-    padding: 5px;
-    color:antiquewhite
+    text-align: center;
+    list-style-type: disc;
+    flex-direction: row wrap;
+            columns: 2;
+            font-size: 1.25rem;
+            margin: 1rem 3rem;
+            gap: 5rem;
+            color:  rgb(10, 8, 123);
+            text-shadow: .5px 1px #7c6821;;
 }
+
 
 @media only screen and (min-width: 768px){
-    .skills{
-        grid-template-columns: repeat(4,1fr);    
+    .wrapper{
+        height: 140vh
     }
-    .skills-image{
-        gap: 2px;
-    }
+   
     .profilePicture{
         height:337.5px;
         width:337.5px;
+        margin-top: -155px;
         box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
         border-radius: 50%;
         }
@@ -119,13 +133,14 @@ justify-content:center;
         .aboutContent{
         width:375px;
         padding:9.375px;
+        margin-top: -120px;
         border-radius:6px;
         
         }
-        .skills h2{
+        /* .skills h2{
             margin-top: -125px;
             padding: 20px;   
-         }
+         } */
     }
 
 /* 
