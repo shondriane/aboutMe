@@ -6,7 +6,7 @@
    padding-top: 30px;
    height:100vh; */
     background-color: antiquewhite;
-    height: 140vh;
+    height: 400vh;
     padding:5px;
     display:block;
     /* margin:20px auto; */
@@ -39,8 +39,8 @@ h4{
    color:antiquewhite;
     background-color: rgb(10, 8, 123); 
   
-    width:300px;
-    height:300px;
+    width:400px;
+    height:500px;
     margin:20px 10px;
   border: 2px solid antiquewhite;
   border-radius: 10px 10px 0px 0px;
@@ -79,7 +79,9 @@ display: flex;
 
 
 img.icons {
+    margin-top:5px;
     width: 30px;
     height: 30px;
-    background-image:rgb(10, 8, 123)
+    background-image:rgb(10, 8, 123); 
+  
   }

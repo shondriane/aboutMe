@@ -28,10 +28,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4>Featured Project</h4>
+         <h4>P.E.R.N Stack</h4>
          <h3>FX3 Shaday</h3> 
     <img src={fx3shaday} alt="fx3shaday" className="image"/>
-    <p>Created using PERN Stack<br></br> </p>
+    <p>Designed a user friendly React website for personal trainers to manage, schedule and book sessions with clients by implementing third party API's and creating JWT Authentication with Node.js. Styled the application using Material UI.<br></br> </p>
     <a href="https://github.com/shondriane/fX3Shaday-frontend"target="_blank" rel="noreferrer">
 <img src={gitHubIcon} alt="github" className="icons"/>
 </a>
@@ -46,10 +46,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4>Featured Project</h4>
+         <h4>P.E.R.N Stack</h4>
          <h3>Buddy Up</h3> 
     <img src={buddyUp} alt="blackJack table" className="image"/>
-    <p>Created using PERN Stack</p>
+    <p>Collaborated with three software enginers to plan and develop a full-stack react website with CRUD operations. The website is for users to post activites and match up with buddies who are also interested in attending the event. We established multiple Many-to-Many relationships, conditional rendering, and user authentication to perform functionality.</p>
     <a href="https://github.com/shondriane/buddy-up-backend"target="_blank" rel="noreferrer">
 <img src={gitHubIcon} alt="github" className="icons"/>
 </a>
@@ -65,10 +65,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4>Featured Project</h4>
+         <h4>M.E.R.N. Stack</h4>
          <h3>Adrenaline Junkie</h3> 
     <img src={adrenaline} alt="blackJack table" className="image"/>
-    <p>Created using MERN Stack</p>
+    <p>Participated on a team of three software engineers during a 2-day hackathon to design a full-stack website with an amusement park rollercoaster review theme. Created user authenticaiton with React hooks and conditional rendering for unique user URL's. Styled mobile friendly application using CSS grid and flexbox layouts.</p>
     <a href="https://github.com/shondriane/Amusement-Park"target="_blank" rel="noreferrer">
 <img src={gitHubIcon} alt="github" className="icons"/>
 </a>
@@ -85,10 +85,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4>Featured Project</h4>
+         <h4>HTML and CSS</h4>
          <h3>Black Jack</h3>
      <img src={blackJack} alt="blackJack table" className="image"/> 
-    <p>Created using HTML and CSS</p>
+    <p>The first application I ever built was a browser-based game for computer and player utilizing HTML/CSS and Javascript Object Oriented Programming, and Document Object Model (DOM) manipulation. </p>
     <a href="https://github.com/shondriane/Connect-4" target="_blank" rel="noreferrer">
 <img src={gitHubIcon} alt="github" className="icons"/>
 </a>
@@ -103,10 +103,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4>Featured Project</h4>
+         <h4>M.E.R.N. Stack</h4>
          <h3>Travel Log</h3>
     <img src={travel} alt="travel site" className="travel-image"/>
-    <p>Created using Mern Stack</p>
+    <p>Created travel application to share my travel itinerary with family and friends who also wanted to join. Made reusable component forms with a search bar to post and render activities based on activity type, destination, and date. Tested all backend routes using Insomnia. Future Features is authentication.</p>
     <a href= "https://github.com/shondriane/Travel-Log" target="_blank" rel="noreferrer">
 <img src={gitHubIcon} alt="github" className="icons"/>
 </a>

@@ -1,0 +1,30 @@
+
+           </div>
+           <h4>Featured Project</h4>
+           <h3>Travel Log</h3>
+      <img src={travel} alt="travel site" className="travel-image"/>
+      <p>Created using Mern Stack</p>
+      <a href= "https://github.com/shondriane/Travel-Log" target="_blank" rel="noreferrer">
+  <img src={gitHubIcon} alt="github" className="icons"/>
+  </a>
+  <a href="https://shondriane-travel.herokuapp.com/" target="_blank" rel="noreferrer">
+  <img src={arrow} alt="site" className="icons"/>
+  </a>
+          </div>
+
+          [{
+            "name": "Adrenaline Junkie",
+            "image": "https://i.ibb.co/Q8v3B07/adrenaline.png",
+            "tech": "Created using PERN Stack",
+            "overview":"Participated on a team of three software engineers during a 2-day hackathon to design a full-stack website with an amusement park theme for users to review their experience on rollercoasters across the U.S. and invite others to comment on their reviews. Created user authentication by utilizing React hooks and conditional rendering to create a unique user URL and id  to enable users to perform CRUD operations on reviews. Styled mobile friendly application using CSS grid and flexbox layouts.Tested all backend routes using Insomnia by creating routes with Express middleware using mock data from MongoDB to ensure accuracy",
+            "github":"https://github.com/shondriane/Travel-Log",
+            "deployed":"https://shondriane-travel.herokuapp.com/"
+          }
+        {
+            "name":
+            "image":
+            "tech":
+            "overview":
+            "github":
+            "deployed":
+        }]

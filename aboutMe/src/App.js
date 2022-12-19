@@ -18,6 +18,7 @@ function App() {
     email: "shondriane.mesa-wise@gmail.com",
     gitHub: "shondriane",
     linkedIn: "shondriane-mesa-wise",
+    phone: "562-209-4878"
   
   }
   const primaryColor= "#7c6821";

@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import './contact.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Contact=(siteProps)=>{
 
@@ -18,7 +20,7 @@ const handleSubmit=()=>{
             <NavBar/>
            
        <form>
-       <h1 className="contactMeHeader"> Contact Me</h1>
+       <h1 className="contactMeHeader"> Contact Me <a href={`tel:{steProps.phone}`}><FontAwesomeIcon icon={faPhone}/></a></h1>
         <label> Full Name</label>
         <input type="text" name="name"></input>
         <label>Email</label>
