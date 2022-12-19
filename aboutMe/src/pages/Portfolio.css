@@ -1,28 +1,39 @@
 .portfolioWrapper{
-    display:flex;
+    /* display:flex;
     flex-flow: row wrap;
     margin-top: 50px;
     justify-content: center;
    padding-top: 30px;
-   height:100vh;
+   height:100vh; */
     background-color: antiquewhite;
     height: 140vh;
+    padding:5px;
+    display:block;
+    /* margin:20px auto; */
+    margin-right:auto;
+    margin-left:auto;
+    justify-content: center;
+    align-items: center;
     
 }
 h4{
     color:#217C68
 }
 .titleProjects{
-   display:grid;
-    grid-column: 1;
+   /* display:grid;
+    grid-column: 1; */
+    padding-top:50px;
     text-align: center;
     display:block;
     color: #7c6821;
 }
+ header{
+    padding:0 15px;
+ }
 .card{
-    grid-auto-columns:1fr 200px;
-    display:inline-block;
-    vertical-align:middle;
+    grid-auto-columns:1fr 200px; 
+    display:inline-block; 
+     vertical-align:middle;
     margin-top: 13px;
     grid-template-columns: repeat(3,1fr);
    color:antiquewhite;
@@ -34,6 +45,8 @@ h4{
   border: 2px solid antiquewhite;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+ 
+  
 
 }
 
@@ -53,18 +66,17 @@ display: flex;
     background-color: antiquewhite;
 }
 
-.image{
+.image, .travel-image{
+    margin-top:5%;
     height:50%;
-   margin-left: 5%;
+    width:70%;
+    display:block;
+    margin-left:auto;
+   margin-right: auto;
    margin-bottom: 5%
 }
 
-.travel-image{
-    height:45%;
-    margin-left: 4%;
-    margin-bottom: 8%
-    
-}
+
 
 img.icons {
     width: 30px;

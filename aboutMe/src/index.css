@@ -18,3 +18,7 @@ html {
 .APP{
   height:100%;
 }
+
+div.contact{
+  position:fixed
+}

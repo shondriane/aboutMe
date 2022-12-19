@@ -25,7 +25,8 @@ function AboutMeDetails(){
         <div className = "aboutContent">
             <h2 className="title">About Me:</h2>
 <p className="text">
-   A Corporate Social Responsibility Global Manager turned full-stack developer. I love analyzing data and finding solutions to make things better.<a  href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'> Download My Resume </a>
+   A Corporate Social Responsibility Global Manager turned full-stack developer. I love analyzing data and finding solutions to make things better.
+   <br></br><a  href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'> Download My Resume <br></br></a><a  href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0'>  View My Resume </a>
   
 </p>
 <p className="text">

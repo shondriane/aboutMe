@@ -5,7 +5,7 @@
  align-items:center;
  justify-content: center;
 gap:20px;
-height:120vh;
+height:100vh;
   background-color: antiquewhite;
   
 }
@@ -14,7 +14,7 @@ height:120vh;
 .profilePicture{
     height:200px;
     width:200px;
-    margin-top: -700px;
+    margin-top: -180px;
    align-items: center;
    justify-content: center;
    box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
@@ -85,13 +85,13 @@ hr{
 
 @media only screen and (min-width: 768px){
     .wrapper{
-        height: 140vh
+        height: 100vh
     }
    
     .profilePicture{
         height:337.5px;
         width:337.5px;
-        margin-top: -255px;
+        margin-top: -200px;
         box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
         border-radius: 50%;
         }
@@ -104,3 +104,25 @@ hr{
         
         }
     }
+
+    @media only screen and (max-width: 414px){
+        .wrapper{
+            height: 145vh
+        }
+       
+        .profilePicture{
+            height:260.5px;
+            width:260.5px;
+            margin-top: 60px;
+            box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
+            border-radius: 50%;
+            }
+            
+            .aboutContent{
+            width:375px;
+            padding:2.375px;
+            
+            border-radius:6px;
+            
+            }
+        }

@@ -1,0 +1,42 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+ .contactMeHeader{
+    color: #68217C;
+    text-align: center;
+ }
+  input[type=submit] {
+    background-color: #04AA6D;
+    width:50px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .contactWrapper {
+    border-radius: 5px;
+    background-color:antiquewhite;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%
+  }
+  

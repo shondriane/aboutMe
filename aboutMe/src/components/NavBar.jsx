@@ -14,6 +14,9 @@ function NavBar(props) {
       <Link className="nav" to="/AboutMeDetails">
         About Me
       </Link>
+      <Link className="nav" to="/ContactMe">
+        Contact
+      </Link>
     </div>
   )
 }

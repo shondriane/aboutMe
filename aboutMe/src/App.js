@@ -5,6 +5,7 @@ import {Route,Routes} from 'react-router-dom'
 import Home from './pages/Home'
 import AboutMeDetails from './pages/AboutMeDetails'
 import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="/" element={<Home {...siteProps} primaryColor={primaryColor}/>} />
       <Route path ="/aboutMeDetails" element={<AboutMeDetails {...siteProps} primaryColor={primaryColor}/>}/>
       <Route path="/portfolio" element={<Portfolio {...siteProps} primaryColor={primaryColor}/>}/>
+      <Route path="/ContactMe" element={<Contact {...siteProps} primaryColor={primaryColor}/>}/>
       
       </Routes>
     </div>

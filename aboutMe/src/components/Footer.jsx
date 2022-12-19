@@ -13,6 +13,9 @@ const siteProps={
   linkedIn: "shondriane-mesa-wise",
   primaryColor: "#217c68"
 }
+
+
+
     return (
         <div
           id="contact"
@@ -21,8 +24,8 @@ const siteProps={
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "2.5rem",
-            padding: "1rem 0 3rem",
+            gap: "0.50rem",
+            padding: "0.03rem 0 0.03rem",
             backgroundColor: siteProps.primaryColor,
           }}
         >
