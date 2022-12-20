@@ -3,12 +3,13 @@
     flex-flow: row wrap;
     margin-top: 50px;
     justify-content: center;
-   padding-top: 30px;
+
    height:100vh; */
     background-color: antiquewhite;
-    height: 400vh;
+    height: 440vh;
+   margin-right:20px auto;
     padding:5px;
-    display:block;
+    padding-right: 35px;
     /* margin:20px auto; */
     margin-right:auto;
     margin-left:auto;
@@ -38,9 +39,10 @@ h4{
     grid-template-columns: repeat(3,1fr);
    color:antiquewhite;
     background-color: rgb(10, 8, 123); 
-  
-    width:400px;
-    height:500px;
+  margin-right: auto;
+  margin-left:auto;
+    width:420px;
+    height:520px;
     margin:20px 10px;
   border: 2px solid antiquewhite;
   border-radius: 10px 10px 0px 0px;
@@ -49,7 +51,9 @@ h4{
   
 
 }
-
+h4{
+    margin-bottom: 5px;
+}
 .cardContainer{
 height:20px;
 background-color: #68217C;
@@ -84,4 +88,11 @@ img.icons {
     height: 30px;
     background-image:rgb(10, 8, 123); 
   
+  }
+
+  .bottomwrapper{
+    margin-top: auto;
+    position:absolute;
+    bottom:0;
+    right:0;
   }
