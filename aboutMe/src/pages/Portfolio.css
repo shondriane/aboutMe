@@ -47,6 +47,7 @@ h4{
   border: 2px solid antiquewhite;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  position:relative
  
   
 
@@ -82,17 +83,24 @@ display: flex;
 
 
 
-img.icons {
-    margin-top:5px;
+.icons {
+  
+ 
     width: 30px;
     height: 30px;
-    background-image:rgb(10, 8, 123); 
+    color:#7c6821;
+    padding:20px;
+    
+    
   
   }
 
-  .bottomwrapper{
-    margin-top: auto;
+
+
+  .bottom-wrapper{
+   
     position:absolute;
+  
     bottom:0;
     right:0;
   }
