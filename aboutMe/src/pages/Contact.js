@@ -1,46 +1,67 @@
-
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import './contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
-const Contact=(siteProps)=>{
+const KEY = process.env.REACT_APP_PUBLIC_KEY
+const TEMPLATE = process.env.REACT_APP_TEMPLATE_ID
+const SERVICE = process.env.REACT_APP_SERVICE_ID
+const PHONE= process.env.REACT_APP_PHONE
 
-    let navigate=useNavigate()
+const Contact = (siteProps) => {
+  const form = useRef()
 
-const handleSubmit=()=>{
-    navigate('/')
-}
-    return(
-       
-        <div className="contactWrapper">
-            <NavBar/>
-           
-       <form>
-       <h1 className="contactMeHeader"> Contact Me <a href={`tel:{steProps.phone}`}><FontAwesomeIcon icon={faPhone}/></a></h1>
-        <label> Full Name</label>
-        <input type="text" name="name"></input>
-        <label>Email</label>
-        <input type="text" name="name"></input>
-        <label>Phone Number</label>
-        <input type="text" name="phone number"></input>
-        <label>Subject</label>
-        <textarea type="text" name="subject"></textarea>
-        <a href={`mailto:${siteProps.email}`}>
-       <button type="submit" onChange={handleSubmit}>Submit</button>
-    
-              </a>
-           
-       </form>
+  let navigate = useNavigate()
 
-           
-            <Footer/>
-            
-            
-              </div>
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs.sendForm(SERVICE, TEMPLATE, form.current, KEY).then(
+      (result) => {
+        console.log(result.text)
+      },
+      (error) => {
+        console.log(error.text)
+      }
     )
+    handleSubmit()
+  }
+
+  const handleSubmit = () => {
+    navigate('/')
+  }
+  return (
+    <div className="contactWrapper">
+      <NavBar />
+
+      <form ref={form} onSubmit={sendEmail}>
+        <h1 className="contactMeHeader">
+          {' '}
+          Contact Me{' '}
+          <a href={`tel:{PHONE}`}>
+            <FontAwesomeIcon icon={faPhone} />
+          </a>
+        </h1>
+        <label> Full Name</label>
+        <input type="text" name="name" required></input>
+        <label>Email</label>
+        <input type="text" name="email" required></input>
+        <label>Phone Number</label>
+        <input type="text" name="phoneNumber" required></input>
+        <label>Subject</label>
+        <input type="text" name="subject" required></input>
+        <label>Message</label>
+        <textarea type="text" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <Footer />
+    </div>
+  )
 }
 export default Contact
