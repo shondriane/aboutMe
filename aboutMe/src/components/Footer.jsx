@@ -8,7 +8,7 @@ const Footer=()=>{
 const siteProps={
     name: "Shondriane Mesa-Wise",
   title: "Software Engineer",
-  email: "shondriane.mesa-wise@gmail.com",
+  email: "shondriane.mesawise@gmail.com",
   gitHub: "shondriane",
   linkedIn: "shondriane-mesa-wise",
   primaryColor: "#217c68"

@@ -102,7 +102,7 @@ function Portfolio(){
          <h4 className="stack">HTML and CSS</h4>
          <h3>Black Jack</h3>
      <img src={blackJack} alt="blackJack table" className="image"/> 
-    <p>The first application I built was a browser-based game for computers and players utilizing HTML/CSS and Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
+    <p>The first application I built was a browser-based utilizing HTML/CSS, Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/Connect-4" target="_blank" rel="noreferrer" className="icons">
        Github 

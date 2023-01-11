@@ -44,7 +44,7 @@ const Contact = (siteProps) => {
           Contact Me{' '}
           <tr>
           <td>
-          <a href="tel:5622094878">
+          <a href={`tel:${PHONE}`}>
             <FontAwesomeIcon icon={faPhone} />
           </a>
           </td>

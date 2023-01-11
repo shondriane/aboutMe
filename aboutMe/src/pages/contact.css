@@ -43,7 +43,7 @@ input[type=text], select, textarea {
 
   @media screen and (max-width:375px){
     .contactWrapper{
-        height:100vh;
+        height:110vh;
         width:90vw;
     }
     .nav{
