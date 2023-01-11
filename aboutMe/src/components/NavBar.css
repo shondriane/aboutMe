@@ -1,9 +1,12 @@
 .nav{
-    margin-right: 25px;
+    margin-right: 15px;
+    margin-left:2px;
     font-size:20px;
     font-weight: 500;
     color: antiquewhite;
-    text-decoration:none
+    text-decoration:none;
+   position:sticky;
+    width:100%
 }
 
 .nav:hover{

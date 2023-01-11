@@ -34,11 +34,11 @@ function Portfolio(){
     <p>Designed a user-friendly React website for personal trainers to manage, schedule, and book client sessions by implementing third-party APIs and creating JWT Authentication with Node.js. Styled the application using Material UI.<br></br> </p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/fX3Shaday-frontend"target="_blank" rel="noreferrer" className="icons">
-        View Github for Process
+        Github
 
 </a>
 <a href="https://fx3shaday.herokuapp.com/" className="icons">
-    View Live Site
+    Website
 
 </a>
 </div>
@@ -57,11 +57,11 @@ function Portfolio(){
    
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/buddy-up-backend"target="_blank" rel="noreferrer" className="icons">
-        View Github for Process
+        Github
 
 </a>
 <a href="https://buddy-match-up.herokuapp.com/" className="icons">
-    View LiveSite
+    Website
 
 </a>
 </div>
@@ -81,11 +81,11 @@ function Portfolio(){
     <p>Participated in a team of three software engineers during a 2-day hackathon to design a full-stack website for amusement park rollercoaster reviews and created user authentication with React hooks and conditional rendering for unique user URLs. Styled mobile-friendly application using CSS grid and flexbox layouts.</p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/Amusement-Park"target="_blank" rel="noreferrer" className="icons">
-        View Github for Process
+        Github
 
 </a>
 <a href="https://adrenaline-junkies.herokuapp.com/account/639c93cc603a523c0cf553f9/rides" className="icons">
-    View Live Site
+    Website
 
 </a>
 </div>
@@ -105,11 +105,11 @@ function Portfolio(){
     <p>The first application I built was a browser-based game for computers and players utilizing HTML/CSS and Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/Connect-4" target="_blank" rel="noreferrer" className="icons">
-       View Github for Process
+       Github 
 
 </a>
 <a href="https://shondrianesblackjack.surge.sh/" target="_blank" rel="noreferrer" className="icons">
-    View Live Site
+    Website
 
 </a>
 </div>
@@ -127,11 +127,11 @@ function Portfolio(){
     <p >Created travel application to share my travel itinerary with family and friends who also wanted to join. Made reusable component forms with a search bar to post and render activities based on activity type, destination, and date. Tested all backend routes using Insomnia. Future Features is authentication.</p>
     <div className="bottom-wrapper">
     <a href= "https://github.com/shondriane/Travel-Log" target="_blank" rel="noreferrer" className="icons">
-        View Github for Process
+        Github 
 
 </a>
 <a href="https://shondriane-travel.herokuapp.com/" target="_blank" rel="noreferrer" className="icons">
-    View Live Site
+    Website
 
 </a>
 </div>

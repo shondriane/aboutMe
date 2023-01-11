@@ -1,3 +1,4 @@
+
 .portfolioWrapper{
     /* display:flex;
     flex-flow: row wrap;
@@ -5,8 +6,9 @@
     justify-content: center;
 
    height:100vh; */
-    background-color: antiquewhite;
-    height: 440vh;
+   
+    height: 470vh;
+    width: 100vw;
    margin-right:20px auto;
     padding:5px;
     padding-right: 35px;
@@ -15,6 +17,7 @@
     margin-left:auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 h4{
@@ -37,8 +40,8 @@ h4{
      vertical-align:middle;
     margin-top: 13px;
     grid-template-columns: repeat(3,1fr);
-   color:antiquewhite;
-    background-color: rgb(10, 8, 123); 
+   color:rgb(10, 8, 123);
+    background-color: antiquewhite; 
   margin-right: auto;
   margin-left:auto;
     width:420px;
@@ -46,7 +49,7 @@ h4{
     margin:20px 10px;
   border: 2px solid antiquewhite;
   border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
+
   position:relative
  
   
@@ -88,7 +91,8 @@ display: flex;
  
     width: 30px;
     height: 30px;
-    color: #cfac30;
+    color: purple;
+    text-decoration-thickness: #217C68;
     font-weight: 200;
     padding:20px;
     
@@ -104,4 +108,36 @@ display: flex;
   
     bottom:0;
     right:0;
+  }
+
+  @media screen and (max-width:540px){
+    
+    .nav{
+        margin-right: 2px;
+        margin-left:2px;
+        font-size:20px;
+    }
+    .portfolioWrapper{
+        height: 470vh;
+       width:100vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h4{
+        color:#217C68;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+   
+    header{
+       text-align: center;
+    justify-content: center;
+     align-self: center;
+   display:flex;
+ 
+    }
+     
+   
   }

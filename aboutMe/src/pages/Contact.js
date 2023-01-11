@@ -42,9 +42,13 @@ const Contact = (siteProps) => {
         <h1 className="contactMeHeader">
           {' '}
           Contact Me{' '}
-          <a href={`tel:{PHONE}`}>
+          <tr>
+          <td>
+          <a href="tel:5622094878">
             <FontAwesomeIcon icon={faPhone} />
           </a>
+          </td>
+            </tr>
         </h1>
         <label> Full Name</label>
         <input type="text" name="name" required></input>
