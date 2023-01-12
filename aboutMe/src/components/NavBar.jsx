@@ -12,7 +12,7 @@ function NavBar(props) {
         Portfolio
       </Link>
       <Link className="nav" to="/AboutMeDetails">
-        About Me
+        About
       </Link>
       <Link className="nav" to="/ContactMe">
         Contact

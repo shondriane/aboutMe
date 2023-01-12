@@ -58,6 +58,8 @@ h4{
 h4{
     margin-bottom: 5px;
 }
+
+
 .cardContainer{
 height:20px;
 background-color: #68217C;
@@ -141,3 +143,40 @@ display: flex;
      
    
   }
+
+  @media screen and (max-width:280px){
+    
+    .nav{
+        margin-right: 2px;
+        margin-left:2px;
+        font-size:20px;
+    }
+    .portfolioWrapper{
+        height: 450vh;
+       width:100vw;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card{
+        width:250px;
+        height:480px;
+    }
+    .image{
+        width:90%;
+        height:30%
+    }
+    .travel-image{
+        width:90%;
+        height:30%
+    }
+
+    .stack{
+        font-size: x-small;
+        text-align: left;
+    }
+   
+    }
+     
+   
+  

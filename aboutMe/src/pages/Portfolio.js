@@ -28,7 +28,7 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">PostgreSQL, Express, React, and Node.js Stack</h4>
+         <h4 className="stack">Tech Stack: PostgreSQL, Express, React, and Node.js</h4>
          <h3>FX3 Shaday</h3> 
     <img src={fx3shaday} alt="fx3shaday" className="image"/>
     <p>Designed a user-friendly React website for personal trainers to manage, schedule, and book client sessions by implementing third-party APIs and creating JWT Authentication with Node.js. Styled the application using Material UI.<br></br> </p>
@@ -50,7 +50,7 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">PostgreSQL, Express, React, and Node.js Stack</h4>
+         <h4 className="stack">Tech Stack: PostgreSQL, Express, React, and Node.js</h4>
          <h3>Buddy Up</h3> 
     <img src={buddyUp} alt="blackJack table" className="image"/>
     <p>Collaborated with three software engineers to plan and develop a full-stack react website with CRUD operations. The website is for users to post activities and match up with buddies who are also interested in attending the event. We established multiple Many-to-Many relationships, conditional rendering, and user authentication to perform functionality.</p>
@@ -75,10 +75,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Mongoose, Express, React and Node.js Stack</h4>
+         <h4 className="stack">Tech Stack: Mongoose, Express, React and Node.js</h4>
          <h3>Adrenaline Junkie</h3> 
     <img src={adrenaline} alt="blackJack table" className="image"/>
-    <p>Participated in a team of three software engineers during a 2-day hackathon to design a full-stack website for amusement park rollercoaster reviews and created user authentication with React hooks and conditional rendering for unique user URLs. Styled mobile-friendly application using CSS grid and flexbox layouts.</p>
+    <p className= "portfolioDescription">Participated in a team of three software engineers during a 2-day hackathon to design a full-stack website for amusement park rollercoaster reviews and created user authentication with React hooks and conditional rendering for unique user URLs. Styled mobile-friendly application using CSS grid and flexbox layouts.</p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/Amusement-Park"target="_blank" rel="noreferrer" className="icons">
         Github
@@ -99,10 +99,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">HTML and CSS</h4>
+         <h4 className="stack">Tech Stack: HTML and CSS</h4>
          <h3>Black Jack</h3>
      <img src={blackJack} alt="blackJack table" className="image"/> 
-    <p>The first application I built was a browser-based utilizing HTML/CSS, Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
+    <p>The first application I built was a browser-based game utilizing HTML/CSS, Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/Connect-4" target="_blank" rel="noreferrer" className="icons">
        Github 
@@ -121,7 +121,7 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Mongoose, Express, React, and Node.js Stack</h4>
+         <h4 className="stack">Tech Stack: Mongoose, Express, React, and Node.js</h4>
          <h3>Travel Log</h3>
     <img src={travel} alt="travel site" className="travel-image"/>
     <p >Created travel application to share my travel itinerary with family and friends who also wanted to join. Made reusable component forms with a search bar to post and render activities based on activity type, destination, and date. Tested all backend routes using Insomnia. Future Features is authentication.</p>
