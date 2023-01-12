@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import ContactIntro from '../components/ContactIntro'
+
 
 const KEY = process.env.REACT_APP_PUBLIC_KEY
 const TEMPLATE = process.env.REACT_APP_TEMPLATE_ID
@@ -36,13 +36,15 @@ const Contact = (siteProps) => {
     navigate('/')
   }
   return (
-    <div className="contactDescription">
-        <h2 className="heading"> Contact</h2>
+    <div >
+        <h1 className="heading"> Contact Me</h1>
+        <section className= "contact">
         <div className="introContact">
-            <p> Interested in hiring me for your next project or just want to say hi? You can fill out the email form below or call me <a href={`tel:${PHONE}`}>
+            <p className="contactDescription"> Interested in hiring me for your next project or just want to say hi? You can fill out the email form below or call me <a href={`tel:${PHONE}`}>
             <FontAwesomeIcon icon={faPhone} /> 
           </a></p>
         </div>
+        </section>
       
     <div className="style">
    
@@ -55,16 +57,8 @@ const Contact = (siteProps) => {
       <form ref={form} onSubmit={sendEmail}>
         <h1 className="contactMeHeader">
           {' '}
-          Email Me{' '}
+          Email{' '}
 
-          {/* <tr>
-          <td>
-          <a href={`tel:${PHONE}`}>
-            <FontAwesomeIcon icon={faPhone} /> 
-          </a>
-          Call Me
-          </td>
-            </tr> */}
         </h1>
         <label> Full Name</label>
         <input type="text" name="name" required></input>
@@ -77,7 +71,7 @@ const Contact = (siteProps) => {
         <label>Message</label>
         <textarea type="text" name="message" required></textarea>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Send</button>
       </form>
 
       <Footer />
