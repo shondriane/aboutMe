@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import ContactIntro from '../components/ContactIntro'
 
 const KEY = process.env.REACT_APP_PUBLIC_KEY
 const TEMPLATE = process.env.REACT_APP_TEMPLATE_ID
@@ -35,20 +36,35 @@ const Contact = (siteProps) => {
     navigate('/')
   }
   return (
+    <div className="contactDescription">
+        <h2 className="heading"> Contact</h2>
+        <div className="introContact">
+            <p> Interested in hiring me for your next project or just want to say hi? You can fill out the email form below or call me <a href={`tel:${PHONE}`}>
+            <FontAwesomeIcon icon={faPhone} /> 
+          </a></p>
+        </div>
+      
+    <div className="style">
+   
+
+   
     <div className="contactWrapper">
       <NavBar />
+   
 
       <form ref={form} onSubmit={sendEmail}>
         <h1 className="contactMeHeader">
           {' '}
-          Contact Me{' '}
-          <tr>
+          Email Me{' '}
+
+          {/* <tr>
           <td>
           <a href={`tel:${PHONE}`}>
-            <FontAwesomeIcon icon={faPhone} />
+            <FontAwesomeIcon icon={faPhone} /> 
           </a>
+          Call Me
           </td>
-            </tr>
+            </tr> */}
         </h1>
         <label> Full Name</label>
         <input type="text" name="name" required></input>
@@ -65,6 +81,8 @@ const Contact = (siteProps) => {
       </form>
 
       <Footer />
+    </div>
+    </div>
     </div>
   )
 }
