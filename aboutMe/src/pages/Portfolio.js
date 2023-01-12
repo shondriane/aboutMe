@@ -4,12 +4,10 @@ import './Portfolio.css'
 import blackJack from '../assets/blackJack.jpeg'
 import buddyUp from '../assets/Buddy_Up.jpeg'
 import travel from '../assets/Travel_log.jpeg'
-import gitHubIcon from "../assets/github.svg";
 import fx3shaday from '../assets/Home.png'
 import adrenaline from '../assets/adrenaline.png'
-import arrow from "../assets/arrow.svg"
 import Footer from '../components/Footer'
-
+import {Link} from 'react-router-dom'
 
 function Portfolio(){
    
@@ -136,7 +134,11 @@ function Portfolio(){
 </a>
 </div>
         </div>
-     
+     <h1 className="portSubTitle"> Get In Touch</h1>
+     <p className="helloSection"> Whether you have a question or just want to say Hello, I'll do my best to respond to you as soon as possible. </p>
+     <button className="hello">
+     <Link className="hello" to="/ContactMe"> Connect</Link>
+     </button>
         <Footer/>
        </div>
     )
