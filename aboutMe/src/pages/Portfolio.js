@@ -16,8 +16,10 @@ function Portfolio(){
             <NavBar/>
        <header>
             <h1 className="titleProjects">Recent Projects</h1>
+          
            
     </header>
+   
 
     <div className="card">
            <div className='cardContainer'>
@@ -65,6 +67,13 @@ function Portfolio(){
 </div>
 
         </div>
+        <div>
+        <button className="hello">
+     <Link className="hello" to="/AboutMeDetails"> Recent Technology</Link>
+     </button>
+         
+        </div>
+      
            
     <div className="card">
            <div className='cardContainer'>
@@ -135,7 +144,7 @@ function Portfolio(){
 </div>
         </div>
      <h1 className="portSubTitle"> Get In Touch</h1>
-     <p className="helloSection"> Whether you have a question or just want to say Hello, I'll do my best to respond to you as soon as possible. </p>
+     <p className="helloSection"> Whether you have a question or just want to say hi, I'll do my best to respond to you as soon as possible. </p>
      <button className="hello">
      <Link className="hello" to="/ContactMe"> Connect</Link>
      </button>

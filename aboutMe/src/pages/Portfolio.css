@@ -86,6 +86,7 @@ display: flex;
    margin-bottom: 5%
 }
 
+
 .hello{
     background-color: purple;
    color:white;
@@ -95,6 +96,10 @@ display: flex;
     font-size:medium;
     text-decoration:none;
   
+}
+.small{
+    font-size:medium;
+    color:white;
 }
 .portSubTitle{
     color:#7c6821
@@ -142,7 +147,7 @@ display: flex;
         font-size:20px;
     }
     .portfolioWrapper{
-        height: 470vh;
+        height: 500vh;
        width:110vw;
         justify-content: center;
         align-items: center;
@@ -174,7 +179,7 @@ display: flex;
         font-size:20px;
     }
     .portfolioWrapper{
-        height: 450vh;
+        height: 500vh;
        width:100vw;
         justify-content: center;
         align-items: center;

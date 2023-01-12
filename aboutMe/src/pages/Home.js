@@ -3,9 +3,8 @@ import NavBar from '../components/NavBar'
 import AboutMe from '../components/AboutMe'
 import Footer from '../components/Footer'
 import './Home.css'
-
-
 import {Link} from 'react-router-dom'
+import AboutMeDetails from './AboutMeDetails'
 
 const Home = () => {
   return (
@@ -24,8 +23,10 @@ const Home = () => {
         <div className="work-container">
           <button>
           <Link to="/portfolio">
-          <h3 id="hoverEffect"> Portfolio</h3>
+          <h3 id="hoverEffect"> View Portfolio</h3>
           </Link>
+          </button>
+          <button>
           </button>
           <button>
           <a href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'>
