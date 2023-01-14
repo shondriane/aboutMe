@@ -107,7 +107,8 @@ display: flex;
 .hello{
     background-color: purple;
    color:white;
-    padding:10px 32px;
+    padding: 10px 32px;
+    border-radius: 5px;
     text-align:center;
     font-size:medium;
     text-decoration:none;
@@ -220,7 +221,11 @@ display: flex;
        } 
        }
     
-   
+   @media only screen and (min-width:391px)and (max-width:493){
+    .titleProjects{
+        margin-top:300px;
+    }
+   }
      @media only screen and (min-device-width: 362px) and (max-device-width: 537px) {
         .titleProjects{
          margin-top:120px
