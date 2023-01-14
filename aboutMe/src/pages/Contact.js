@@ -4,9 +4,9 @@ import NavBar from '../components/NavBar'
 import '../styles/contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { useRef } from 'react'
+import { useRef,useState } from 'react'
 import emailjs from '@emailjs/browser'
-import ContactSheet from '../styles/ContactStyleSheet.css'
+import contact from '../styles/contact.css'
 
 const KEY = process.env.REACT_APP_PUBLIC_KEY
 const TEMPLATE = process.env.REACT_APP_TEMPLATE_ID
@@ -16,8 +16,20 @@ const PHONE = process.env.REACT_APP_PHONE
 const Contact = (siteProps) => {
   const form = useRef()
 
+  const initialFormValues={
+name:"",
+email:"",
+phoneNumber:"",
+subject:"",
+message:""
+  }
+  const [formValues,setFormValues]= useState(initialFormValues)
+
   let navigate = useNavigate()
 
+  const handleChange=(e)=>{
+    setFormValues({...formValues,[e.target.name]: e.target.value})
+  }
   const sendEmail = (e) => {
     e.preventDefault()
     emailjs.sendForm(SERVICE, TEMPLATE, form.current, KEY).then(
@@ -32,7 +44,8 @@ const Contact = (siteProps) => {
   }
 
   const handleSubmit = () => {
-    navigate('/')
+    setFormValues(initialFormValues)
+    
   }
   return (
     <div className="contactForm">
@@ -60,15 +73,15 @@ const Contact = (siteProps) => {
           <form ref={form} onSubmit={sendEmail}>
             <h1 className="contactMeHeader"> Email </h1>
             <label> Full Name</label>
-            <input type="text" name="name" required></input>
+            <input onChange={handleChange} value ={formValues.name}type="text" name="name" required></input>
             <label>Email</label>
-            <input type="text" name="email" required></input>
+            <input onChange={handleChange} value={formValues.email} type="text" name="email" required></input>
             <label>Phone Number</label>
-            <input type="text" name="phoneNumber" required></input>
+            <input onChange={handleChange} value={formValues.phoneNumber}type="text" name="phoneNumber" required></input>
             <label>Subject</label>
-            <input type="text" name="subject" required></input>
+            <input onChange={handleChange} value={formValues.subject}type="text" name="subject" required></input>
             <label>Message</label>
-            <textarea type="text" name="message" required></textarea>
+            <textarea onChange={handleChange} value={formValues.message}type="text" name="message" required></textarea>
 
             <button type="submit">Send</button>
           </form>
