@@ -1,22 +1,17 @@
 import React from "react";
-import PropTypes from "prop-types";
-import envelopeIcon from "../assets/envelope.svg";
-import gitHubIcon from "../assets/github.svg";
-import linkedInIcon from "../assets/linkedin.svg";
+import {Link} from 'react-router-dom'
+import Connect from './Connect'
 
 const Footer=()=>{
 const siteProps={
-    name: "Shondriane Mesa-Wise",
-  title: "Software Engineer",
-  email: "shondriane.mesawise@gmail.com",
-  gitHub: "shondriane",
-  linkedIn: "shondriane-mesa-wise",
   primaryColor: "#217c68"
 }
 
 
 
     return (
+
+     
         <div
           id="contact"
           style={{
@@ -29,54 +24,35 @@ const siteProps={
             backgroundColor: siteProps.primaryColor,
           }}
         >
+         
           <div
             style={{
               display: "flex",
               justifyContent: "center",
               gap: "2.5rem",
+              marginTop:"5px",
             }}
           >
-            {siteProps.email && (
-              <a href={`mailto:${siteProps.email}`}>
-                <img src={envelopeIcon} alt="email" className="socialIcon" />
-              </a>
-            )}
-          
-            {siteProps.gitHub && (
-              <a href={`https://github.com/${siteProps.gitHub}`} target="_blank" rel="noopener noreferrer">
-                <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
-              </a>
-            )}
-            {siteProps.linkedIn && (
-              <a
-                href={`https://www.linkedin.com/in/${siteProps.linkedIn}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
-              </a>
-            )}
+            
+            <Link to ="/ContactMe">
+        <i class="fa-sharp fa-solid fa-envelope fa-xl" id="footerIcon"></i>
+        </Link>
+        <a href="https://linkedin.com/in/shondriane-mesa-wise" target='_blank' rel='noreferrer'>
+        <i class="fa-brands fa-linkedin fa-xl" id="footerIcon" ></i>
+        </a>
+        <a href="https://github.com/shondriane" target='_blank' rel='noreferrer'>
+     <i class="fa-brands fa-github fa-xl" id="footerIcon"></i>
+        </a>
         
           </div>
           <p className="small" style={{ marginTop: 0, color: "white" }}>
-            Created by {siteProps.name}
+            Created by Shondriane Mesa-Wise
           </p>
+         
         </div>
       );
 }
 
-Footer.defaultProps = {
-    name: "",
-  };
-  
-  Footer.propTypes = {
-   
-    email: PropTypes.string,
-    gitHub: PropTypes.string,
-    linkedIn: PropTypes.string,
-    name: PropTypes.string.isRequired,
-    primaryColor: PropTypes.string,
-  
-  };
+
 
 export default Footer

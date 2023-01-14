@@ -1,13 +1,12 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import './contact.css'
+import '../styles/contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-
+import contactStyleSheet from '../styles/ContactStyleSheet.css'
 
 const KEY = process.env.REACT_APP_PUBLIC_KEY
 const TEMPLATE = process.env.REACT_APP_TEMPLATE_ID
@@ -36,8 +35,8 @@ const Contact = (siteProps) => {
     navigate('/')
   }
   return (
-    <div >
-        <h1 className="heading"> Contact Me</h1>
+    <div className="contactForm">
+        <h1 id="contactMe" className="heading" > Contact Me</h1>
         <section className= "contact">
         <div className="introContact">
             <p className="contactDescription"> Interested in hiring me for your next project or just want to say hi? You can fill out the email form below or call me <a href={`tel:${PHONE}`}>
@@ -74,7 +73,7 @@ const Contact = (siteProps) => {
         <button type="submit">Send</button>
       </form>
 
-      <Footer />
+     
     </div>
     </div>
     </div>

@@ -1,26 +1,22 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import './Portfolio.css'
+import '../styles/Portfolio.css'
 import blackJack from '../assets/blackJack.jpeg'
 import buddyUp from '../assets/Buddy_Up.jpeg'
 import travel from '../assets/Travel_log.jpeg'
 import fx3shaday from '../assets/Home.png'
 import adrenaline from '../assets/adrenaline.png'
-import Footer from '../components/Footer'
-import {Link} from 'react-router-dom'
-
+import Connect from '../components/Connect'
 function Portfolio(){
    
     return(
-        <div className="portfolioWrapper">
-            <NavBar/>
-       <header>
-            <h1 className="titleProjects">Recent Projects</h1>
+        <div className="portfolioWrapper" >
+         
+     
+            <h2  className="titleProjects">Featured Projects</h2>
           
-           
-    </header>
+    
    
-
+<div>
     <div className="card">
            <div className='cardContainer'>
 <div className="c"></div>
@@ -28,10 +24,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Tech Stack: PostgreSQL, Express, React, and Node.js</h4>
+         <h4 className="stack">Stack: PostgreSQL, Express, React, Node.js, and MUI</h4>
          <h3>FX3 Shaday</h3> 
     <img src={fx3shaday} alt="fx3shaday" className="image"/>
-    <p>Designed a user-friendly React website for personal trainers to manage, schedule, and book client sessions by implementing third-party APIs and creating JWT Authentication with Node.js. Styled the application using Material UI.<br></br> </p>
+    <p>Designed a user-friendly website for personal trainers to manage, schedule, and book client sessions by implementing third-party APIs and creating JWT Authentication with Node.js. Styled the application using Material UI.<br></br> </p>
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/fX3Shaday-frontend"target="_blank" rel="noreferrer" className="icons">
         Github
@@ -50,10 +46,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Tech Stack: PostgreSQL, Express, React, and Node.js</h4>
+         <h4 className="stack">Stack: PostgreSQL, Express, React, and Node.js</h4>
          <h3>Buddy Up</h3> 
     <img src={buddyUp} alt="blackJack table" className="image"/>
-    <p>Collaborated with three software engineers to plan and develop a full-stack react website with CRUD operations. The website is for users to post activities and match up with buddies who are also interested in attending the event. We established multiple Many-to-Many relationships, conditional rendering, and user authentication to perform functionality.</p>
+    <p>The website is inspired by MeetUp, Facebook, and Tinder. Designed for users to post activities and match up with buddies who are also interested in attending the event.</p>
    
     <div className="bottom-wrapper">
     <a href="https://github.com/shondriane/buddy-up-backend"target="_blank" rel="noreferrer" className="icons">
@@ -68,9 +64,10 @@ function Portfolio(){
 
         </div>
         <div>
-        <button className="hello">
-     <Link className="hello" to="/AboutMeDetails"> Recent Technology</Link>
-     </button>
+        <h2 className="portSubTitle"> Get In Touch</h2>
+     <p className="helloSection"> Whether you have a question or just want to say hi, I'll like to hear from you. </p>
+    
+     <Connect/>
          
         </div>
       
@@ -82,11 +79,12 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Tech Stack: Mongoose, Express, React and Node.js</h4>
+         <h4 className="stack">Stack: Mongoose, Express, React and Node.js</h4>
          <h3>Adrenaline Junkie</h3> 
     <img src={adrenaline} alt="blackJack table" className="image"/>
-    <p className= "portfolioDescription">Participated in a team of three software engineers during a 2-day hackathon to design a full-stack website for amusement park rollercoaster reviews and created user authentication with React hooks and conditional rendering for unique user URLs. Styled mobile-friendly application using CSS grid and flexbox layouts.</p>
+    <p className= "portfolioDescription"> 2-day hackathon to design a full-stack website for amusement park rollercoaster reviews. Created user authentication with React hooks and conditional rendering for unique user URLs.</p>
     <div className="bottom-wrapper">
+        
     <a href="https://github.com/shondriane/Amusement-Park"target="_blank" rel="noreferrer" className="icons">
         Github
 
@@ -106,7 +104,7 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Tech Stack: HTML and CSS</h4>
+         <h4 className="stack">Stack: HTML and CSS</h4>
          <h3>Black Jack</h3>
      <img src={blackJack} alt="blackJack table" className="image"/> 
     <p>The first application I built was a browser-based game utilizing HTML/CSS, Javascript Object Oriented Programming and Document Object Model (DOM) manipulation. </p>
@@ -128,10 +126,10 @@ function Portfolio(){
 <div className="c"></div>
 
            </div>
-         <h4 className="stack">Tech Stack: Mongoose, Express, React, and Node.js</h4>
+         <h4 className="stack">Stack: Mongoose, Express, React, and Node.js</h4>
          <h3>Travel Log</h3>
     <img src={travel} alt="travel site" className="travel-image"/>
-    <p >Created travel application to share my travel itinerary with family and friends who also wanted to join. Made reusable component forms with a search bar to post and render activities based on activity type, destination, and date. Tested all backend routes using Insomnia. Future Features is authentication.</p>
+    <p >Created travel application to share my travel itinerary with family and friends who also wanted to join. Made reusable component forms with a search bar to post and render activities. Currently under construction.</p>
     <div className="bottom-wrapper">
     <a href= "https://github.com/shondriane/Travel-Log" target="_blank" rel="noreferrer" className="icons">
         Github 
@@ -143,12 +141,11 @@ function Portfolio(){
 </a>
 </div>
         </div>
-     <h1 className="portSubTitle"> Get In Touch</h1>
-     <p className="helloSection"> Whether you have a question or just want to say hi, I'll do my best to respond to you as soon as possible. </p>
-     <button className="hello">
-     <Link className="hello" to="/ContactMe"> Connect</Link>
-     </button>
-        <Footer/>
+   
+    
+       
+        </div>
+       
        </div>
     )
 }

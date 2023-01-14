@@ -4,14 +4,16 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  height: 100vh;
-  background-color: antiquewhite;
+  
+ 
 }
-
+.pic{
+  text-align:center
+}
 .profilePicture {
   height: 200px;
   width: 200px;
-  margin-top: -180px;
+  /* margin-top:5px; */
   align-items: center;
   justify-content: center;
   box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
@@ -23,26 +25,20 @@
   margin-top: 60px;
   height: 400px;
   margin-bottom: 350px;
-  background-color: antiquewhite;
+
   background-repeat: repeat;
 }
 
-h2 {
+
+h1 {
   margin-bottom: 25px;
-  font-size: 50px;
   color: #7c6821;
   text-shadow: 1.5px 1px rgb(10, 8, 123);
   text-align:center;
 }
-#retech {
-   display:flex;
-   align-items: center;
-    
-}
 
 .text {
-  margin-bottom: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: rgb(10, 8, 123);
 }
 a {
@@ -55,25 +51,48 @@ a:hover {
 
   font-size: 20px;
 }
-.skillsList{
-    margin-top:20px;
-    padding:2px;
-    width: 50%;
-    display:flex;
-}
 
+.skillsList{
+  margin-top:20px;
+  padding:2px;
+}
 .techSkills{
-    display:flex;
-    padding:10px
+  display:flex;
+  padding:10px;
+  color: #68217c;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.title{
+margin-top:-95px;
 }
 .subTitle{
-    color:#217c68;
-    margin-bottom: 30px;
-}
-h1 {
-  padding: 10px;
+  color:#217c68;
+  margin-bottom: 30px;
 }
 
+h1,h2 {
+  padding: 10px;
+  color: #7c6821;
+}
+.resumeContainer{
+  
+  text-align:center;
+  justify-content: center;
+  align-items:center;
+}
+.resume{
+ background-color:blue;
+ 
+ margin:0 10px;
+ text-decoration:none;
+ color:antiquewhite;
+ border: 1px solid #7c6821;
+ border-radius: 5px;
+ padding: 2.5px 5px;
+  
+}
 hr {
   display: flex;
   margin: 0 auto;
@@ -85,36 +104,14 @@ hr {
   margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 768px) {
-  .wrapper {
-    height: 100vh;
-  }
+@media only screen and (min-width: 280px) {
+  
 
   .profilePicture {
-    height: 337.5px;
-    width: 337.5px;
-    margin-top: -200px;
-    box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
-    border-radius: 50%;
-  }
-
-  .aboutContent {
-    width: 375px;
-    padding: 9.375px;
-
-    border-radius: 6px;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-  .wrapper {
-    height: 145vh;
-  }
-
-  .profilePicture {
-    height: 260.5px;
-    width: 260.5px;
+    height: 200.5px;
+    width: 200.5px;
     margin-top: 60px;
+    margin-bottom: 25px;
     box-shadow: 0px 2px 15px 2px rgb(10, 8, 123);
     border-radius: 50%;
   }
@@ -122,7 +119,33 @@ hr {
   .aboutContent {
     width: 375px;
     padding: 2.375px;
-
+    text-align:center;
     border-radius: 6px;
   }
+.title{
+  margin-top: -20px;
+  margin-bottom:-30px;
 }
+  .subTitle{
+
+    margin-top:-5px;
+  }
+}
+
+@media only screen and (min-width:540px){
+  .title{
+    margin-top: -20px;
+  }
+  .aboutContent {
+    width: 575px;
+    padding: 9.375px;
+  
+    border-radius: 6px;
+  }
+ 
+  
+  }
+
+
+
+

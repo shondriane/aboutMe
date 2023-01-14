@@ -1,18 +1,9 @@
 
-.portfolioWrapper{
-    /* display:flex;
-    flex-flow: row wrap;
-    margin-top: 50px;
-    justify-content: center;
-
-   height:100vh; */
-   
-    height: 470vh;
+.portfolioWrapper{ 
     width: 100vw;
    margin-right:20px auto;
     padding:5px;
     padding-right: 35px;
-    /* margin:20px auto; */
     margin-right:auto;
     margin-left:auto;
     justify-content: center;
@@ -24,9 +15,8 @@ h4{
     color:#217C68
 }
 .titleProjects{
-   /* display:grid;
-    grid-column: 1; */
-    padding-top:50px;
+  
+    padding-top:-10px;
     text-align: center;
     display:block;
     color: #7c6821;
@@ -86,6 +76,18 @@ display: flex;
    margin-bottom: 5%
 }
 
+.connect-links{
+    margin-top:5px;
+    display:flex;
+    color:#217C68;
+    margin-left:10px;
+    text-align:center;
+    justify-content: center;
+
+}
+.connect-icons{
+    margin-left:15px
+}
 
 .hello{
     background-color: purple;
@@ -139,47 +141,10 @@ display: flex;
     right:0;
   }
 
-  @media screen and (max-width:540px){
+  @media only screen and (max-width:375px){
     
-    .nav{
-        margin-right: 2px;
-        margin-left:2px;
-        font-size:20px;
-    }
-    .portfolioWrapper{
-        height: 500vh;
-       width:110vw;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    h4{
-        color:#217C68;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-    }
-   
-    header{
-       text-align: center;
-    justify-content: center;
-     align-self: center;
-   display:flex;
- 
-    }
-     
-   
-  }
-
-  @media screen and (max-width:280px){
     
-    .nav{
-        margin-right: 2px;
-        margin-left:2px;
-        font-size:20px;
-    }
     .portfolioWrapper{
-        height: 500vh;
        width:100vw;
         justify-content: center;
         align-items: center;
@@ -204,6 +169,70 @@ display: flex;
     }
    
     }
-     
+
+    @media screen and (max-width:550px){
    
+        .portfolioWrapper{
+          
+           width:110vw;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        h4{
+            color:#217C68;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+       
+        header{
+           text-align: center;
+        justify-content: center;
+         align-self: center;
+       display:flex;
+     
+        }
+        
+       
+      }
+
+   
+
+       @media only screen and (min-device-width:280px){
+       .titleProjects{
+        margin-top:145px;
+       } 
+       }
+    
+   
+     @media only screen and (min-device-width: 342px) and (max-device-width: 537px) {
+        .titleProjects{
+         margin-top:80px
+        }
+     }
+       @media only screen and (min-device-width: 539px) and (max-device-width: 949px) {
+       .titleProjects{
+        margin-top:0px
+       }
+    }
+    
+
+        @media only screen and (min-device-width:995px){
+            .titleProjects{
+                margin-top: 15px
+            }
+        }
+
+        @media only screen and (min-device-width:1020px){
+            .titleProjects{
+                margin-top: 5px
+            }
+        }
+
+ 
+     
+
+  
+
   
