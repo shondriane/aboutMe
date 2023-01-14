@@ -52,7 +52,7 @@ h4{
 
 .cardContainer{
 height:20px;
-background-color: #68217C;
+background-color:  purple;
 
 align-items: center;
 display: flex;
@@ -88,15 +88,30 @@ display: flex;
 .connect-icons{
     margin-left:15px
 }
-
+.portfolio-links,.website{
+   
+    margin:0 10px;
+    text-decoration:none;
+    color:antiquewhite;
+    border: 1px solid #7c6821;
+    border-radius: 5px;
+    padding: .3px 5px;
+     
+   }
+   .website{
+    background-color: purple;
+   }
+   .portfolio-links{
+    background-color: #217C68; ;
+   }
 .hello{
     background-color: purple;
    color:white;
     padding:10px 32px;
     text-align:center;
-    display:inline-block;
     font-size:medium;
     text-decoration:none;
+    
   
 }
 .small{
@@ -201,34 +216,34 @@ display: flex;
 
        @media only screen and (min-device-width:280px){
        .titleProjects{
-        margin-top:145px;
+        margin-top:225px;
        } 
        }
     
    
-     @media only screen and (min-device-width: 342px) and (max-device-width: 537px) {
+     @media only screen and (min-device-width: 362px) and (max-device-width: 537px) {
         .titleProjects{
-         margin-top:80px
+         margin-top:120px
         }
      }
        @media only screen and (min-device-width: 539px) and (max-device-width: 949px) {
        .titleProjects{
-        margin-top:0px
+        margin-top:50px
        }
     }
     
 
-        @media only screen and (min-device-width:995px){
+        @media only screen and (min-device-width:959px){
             .titleProjects{
                 margin-top: 15px
             }
         }
 
-        @media only screen and (min-device-width:1020px){
+         @media only screen and (min-device-width:1020px){
             .titleProjects{
-                margin-top: 5px
+                margin-top: 45px
             }
-        }
+        } 
 
  
      

@@ -29,7 +29,10 @@ const AboutMeDetail=()=>{
            
             
 <p className="text">
-  I'm a Corporate Social Responsibility Global Account Manager turned Software Engineer. I specialize in frontend and backend development. I'm a life long learner with a growth mindset. I embrace challenges and love learning new processes, understanding how things work and making things more efficient. Curious how I can help you with your next project? Checkout my <Link to="/portfolio">portfolio</Link> and <a href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'>resume.</a>
+I'm a Corporate Social Responsibility Global Account Manager turned Software Engineer. I specialize in frontend and backend development. Since beginning my journey as a software engineer, I have designed websites and collaborated with talented people to enhance users' experience and solve complex everyday problems. I'm a lifelong learner with a growth mindset who embraces challenges and loves learning new processes, understanding how things work, and making things run more efficiently. 
+</p>
+<p className="text">
+How can I help you with your next project? Checkout my <a href="#skills">portfolio</a> and <a href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'>resume.</a>
 </p>
 <div  id="skills" className="resumeContainer">
 <a className ="resume" href="https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/edit?usp=sharing" target="blank" rel="noreferrer">

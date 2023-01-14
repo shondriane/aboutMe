@@ -37,7 +37,7 @@ h1 {
   text-align:center;
 }
 
-.text {
+.text,.contactDescription, .contactWrapper {
   margin-bottom: 40px;
   color: rgb(10, 8, 123);
 }
@@ -82,8 +82,8 @@ h1,h2 {
   justify-content: center;
   align-items:center;
 }
-.resume{
- background-color:blue;
+.resume {
+ background-color: #217C68;
  
  margin:0 10px;
  text-decoration:none;
