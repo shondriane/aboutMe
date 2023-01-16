@@ -34,9 +34,9 @@ const siteProps={
             }}
           >
             
-            <Link to ="/ContactMe">
+            <a href="#ContactMe">
         <i class="fa-sharp fa-solid fa-envelope fa-xl" id="footerIcon"></i>
-        </Link>
+        </a>
         <a href="https://linkedin.com/in/shondriane-mesa-wise" target='_blank' rel='noreferrer'>
         <i class="fa-brands fa-linkedin fa-xl" id="footerIcon" ></i>
         </a>

@@ -9,14 +9,12 @@ const LandingPage=()=>{
 
 
     return(
-        <div >
+        <div className="lpdiv" >
  <NavBar/>
         <AboutMeDetail/>
         <Portfolio/>
         <Contact/>
-        <h1 className="thankYou">
-        Thank you for dropping by!
-     </h1>
+       
         <Footer/>
         </div>
        
