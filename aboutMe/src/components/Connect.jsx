@@ -15,9 +15,9 @@ return(
         </a>
       </div>
       <div className="connect-icons">
-      <Link to ="/ContactMe">
+      <a href ="#contactMe">
         <i class="fa-sharp fa-solid fa-envelope fa-xl" ></i>
-        </Link>
+        </a>
       </div>
        
     </section>
