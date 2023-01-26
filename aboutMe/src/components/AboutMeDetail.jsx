@@ -29,12 +29,12 @@ const AboutMeDetail=()=>{
            
             
 <p className="text">
-I'm a Corporate Social Responsibility Global Account Manager turned Software Engineer. I specialize in frontend and backend development. Since beginning my journey as a software engineer, I have designed websites and collaborated with talented people to enhance users' experience and solve complex everyday problems. I'm a lifelong learner with a growth mindset who embraces challenges and loves learning new processes, understanding how things work, and making things run more efficiently. 
+I am a software engineer with a finance and corporate social responsibility background. My expertise includes frontend and backend development. When collaborating, I bring a unique perspective to problem-solving, building, and designing applications to enhance the user experience. As a lifelong learner, I embrace challenges and consistently seek to improve my skills and understanding of how things work to make things run more efficiently.
 </p>
 <p className="text">
 How can I help you with your next project? Checkout my <a href="#skills">portfolio</a> and <a href=' https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/export?format=pdf'>resume.</a>
 </p>
-<div  id="skills" className="resumeContainer">
+<div  className="resumeContainer">
 <a className ="resume" href="https://docs.google.com/document/d/1dZLcqMcqplVCtCL5O3NA1UJ237PW0jJwfrMKSPfXPL0/edit?usp=sharing" target="blank" rel="noreferrer">
 View Resume
 </a>
@@ -44,7 +44,7 @@ View Resume
     <hr />
     
     <h2  >Recent Technologies</h2>
-   
+  
  <ul className="techSkills">
    
     <li className="skillsList">
@@ -65,15 +65,10 @@ View Resume
     </li>
  </ul>
    
-  
-
-
-
-
-
-
             </div>
-          
+          <div class="update">
+          <p class="updateP">  I am always looking to upskill and update the list periodically to stay current with industry trends. </p>
+          </div>
     
          </div>
       

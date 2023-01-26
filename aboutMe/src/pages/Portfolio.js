@@ -9,10 +9,10 @@ import Connect from '../components/Connect'
 function Portfolio(){
    
     return(
-        <div className="portfolioWrapper" >
+        <div    className="portfolioWrapper" >
          
      
-            <h2  className="titleProjects">Featured Projects</h2>
+            <h2  className="titleProjects" id="skills">Featured Projects</h2>
           
     
    
