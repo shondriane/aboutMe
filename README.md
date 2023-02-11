@@ -15,7 +15,7 @@ Skills: JAVASCRIPT /REACT / HTML / CSS/MONGODB/POSTGRESQL/NODE.JS/EXPRESS.JS/JSO
 - ⚡ Fun fact: Adrenaline Junkie 
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/shondriane-mesa-wise/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://shondriane.herokuapp.com)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/shondriane-mesa-wise/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://shondriane.herokuapp.com)  
 
   
 
