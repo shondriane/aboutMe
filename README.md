@@ -2,7 +2,7 @@
 
 ### Hi there 👋, my name is Shondriane Mesa-Wise
 #### I am a Full Stack Software Engineer
-[<img src="https://adplist-bucket.s3.amazonaws.com/media/profile_photos/89ecbe046a984108bd7a2c37910991373AtHO.webp" height='40'alt="picture">]
+
 
 I have recently graduated from General Assembly's immersive SEI program. My background in finance and corporate social responsibility has given me a unique perspective and I am excited to apply these skills as I transition into the tech industry and continue to grow as an engineer. My passion for coding began with a Khan Academy course on Javascript and  since then, it has been a constant journey of problem-solving, impact-making, and personal growth. When I am not coding, I enjoy learning new languages and frameworks, taking salsa classes, running, traveling, and playing board games.
 
