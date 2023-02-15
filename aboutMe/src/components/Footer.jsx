@@ -1,6 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
-import Connect from './Connect'
+
 
 const Footer=()=>{
 const siteProps={
@@ -35,13 +34,13 @@ const siteProps={
           >
             
             <a href="#contactMe">
-        <i class="fa-sharp fa-solid fa-envelope fa-xl" id="footerIcon"></i>
+        <i className="fa-sharp fa-solid fa-envelope fa-xl" id="footerIcon"></i>
         </a>
         <a href="https://linkedin.com/in/shondriane-mesa-wise" target='_blank' rel='noreferrer'>
-        <i class="fa-brands fa-linkedin fa-xl" id="footerIcon" ></i>
+        <i className="fa-brands fa-linkedin fa-xl" id="footerIcon" ></i>
         </a>
         <a href="https://github.com/shondriane" target='_blank' rel='noreferrer'>
-     <i class="fa-brands fa-github fa-xl" id="footerIcon"></i>
+     <i className="fa-brands fa-github fa-xl" id="footerIcon"></i>
         </a>
         
           </div>

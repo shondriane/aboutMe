@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../styles/AboutMeDetail.css'
 import picture from '../assets/Shondriane.jpeg'
-import {Link} from 'react-router-dom'
+
 
 const AboutMeDetail=()=>{
   
@@ -48,26 +48,26 @@ View Resume
  <ul className="techSkills">
    
     <li className="skillsList">
-    <i class="fa-brands fa-react fa-2xl"></i>
+    <i className="fa-brands fa-react fa-2xl"></i>
     React
     </li>
     <li className="skillsList">
-    <i class="fa-brands fa-square-js fa-2xl"></i>
+    <i className="fa-brands fa-square-js fa-2xl"></i>
     Javascript
     </li>
     <li className="skillsList">
-    <i class="fa-brands fa-vuejs fa-2xl"></i>
+    <i className="fa-brands fa-vuejs fa-2xl"></i>
     Vue.js
     </li>
     <li className="skillsList">
-    <i class="fa-brands fa-python fa-2xl"></i>
+    <i className="fa-brands fa-python fa-2xl"></i>
     Python
     </li>
  </ul>
    
             </div>
-          <div class="update">
-          <p class="updateP">  I am always looking to upskill and update the list periodically to stay current with industry trends. </p>
+          <div className="update">
+          <p className="updateP">  I am always looking to upskill and update the list periodically to stay current with industry trends. </p>
           </div>
     
          </div>
