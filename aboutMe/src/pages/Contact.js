@@ -59,7 +59,7 @@ message:""
             {' '}
             Interested in hiring me for your next project or just want to say
             hi? You can fill out the email form below or call me{' '}
-            <a href={`tel:${PHONE}`}>
+            <a href={`tel:${PHONE}`} aria-label="Contact Me">
               <FontAwesomeIcon icon={faPhone} />
             </a>
           </p>
@@ -72,16 +72,16 @@ message:""
 
           <form ref={form} onSubmit={sendEmail}>
             <h1 className="contactMeHeader"> Email </h1>
-            <label> Full Name</label>
-            <input onChange={handleChange} value ={formValues.name}type="text" name="name" required></input>
-            <label>Email</label>
-            <input onChange={handleChange} value={formValues.email} type="text" name="email" required></input>
-            <label>Phone Number</label>
-            <input onChange={handleChange} value={formValues.phoneNumber}type="text" name="phoneNumber" required></input>
-            <label>Subject</label>
-            <input onChange={handleChange} value={formValues.subject}type="text" name="subject" required></input>
-            <label>Message</label>
-            <textarea onChange={handleChange} value={formValues.message}type="text" name="message" required></textarea>
+            <label htmlFor="name"> Full Name</label>
+            <input onChange={handleChange} value ={formValues.name}type="text" name="name" id="name" required></input>
+            <label htmlFor ="email">Email</label>
+            <input onChange={handleChange} value={formValues.email} type="text" name="email" id="email" required></input>
+            <label htmlFor= "phoneNumber">Phone Number</label>
+            <input onChange={handleChange} value={formValues.phoneNumber}type="text" name="phoneNumber" id="phoneNumber" required></input>
+            <label htmlFor="subject">Subject</label>
+            <input onChange={handleChange} value={formValues.subject}type="text" name="subject" id="subject" required></input>
+            <label htmlFor='message'>Message</label>
+            <textarea onChange={handleChange} value={formValues.message}type="text" name="message" id="message" required></textarea>
 
             <button className="hello"type="submit">Send</button>
            

@@ -1,10 +1,11 @@
 import './index.css'
 import React from 'react'
 import {Route,Routes} from 'react-router-dom'
+
+
 import LandingPage from './pages/LandingPage'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
-
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <Route path="/ContactMe" element={<Contact {...siteProps} primaryColor={primaryColor}/>}/>
      
       </Routes>
+     
     </div>
   )
 }

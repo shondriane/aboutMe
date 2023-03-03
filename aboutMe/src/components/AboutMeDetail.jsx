@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../styles/AboutMeDetail.css'
-import picture from '../assets/Shondriane.jpeg'
+import picture from '../assets/Shondriane.webp'
 
 
 const AboutMeDetail=()=>{
@@ -21,7 +21,7 @@ const AboutMeDetail=()=>{
            
             <div className="pic">
         
-        <img src ={picture} alt="profilePicture" className='profilePicture'/>     
+        <img src ={picture} alt="profilePicture" className='profilePicture' loading="lazy"/>     
        
 </div>
             <h2 className="subTitle">  Software Engineer</h2>
