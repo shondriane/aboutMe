@@ -22,5 +22,4 @@ Skills: JAVASCRIPT /REACT / HTML / CSS/MONGODB/POSTGRESQL/NODE.JS/EXPRESS.JS/JSO
 
 
 
-[![Shondriane's GitHub stats](https://github-readme-stats.vercel.app/api?username=shondriane)](https://github.com/shondriane/github-readme-stats)
 
